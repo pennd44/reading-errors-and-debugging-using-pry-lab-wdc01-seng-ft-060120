@@ -10,7 +10,7 @@ def prompt_user
   puts "2.) Eat a ham."
 end
 
-def selection( )
+def selection(num)
   if num = 1
     binding.pry
      "YUM YUM MUNCH MUNCH MUNCH"
@@ -22,5 +22,5 @@ end
 
 def runner
   prompt_user
-  selection(get_user_input)
+  selection(num)
 end
